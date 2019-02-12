@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Analysis Services Tutorial", "Analysis Services Tutorial\Analysis Services Tutorial.dwproj", "{9E9B4724-E0E3-4BA5-82C1-DE1002754789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E9B4724-E0E3-4BA5-82C1-DE1002754789}.Development|Default.ActiveCfg = Development
+		{9E9B4724-E0E3-4BA5-82C1-DE1002754789}.Development|Default.Build.0 = Development
+		{9E9B4724-E0E3-4BA5-82C1-DE1002754789}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {259418B4-5664-45EC-A7EE-F7D64F87C8A5}
+	EndGlobalSection
+EndGlobal
