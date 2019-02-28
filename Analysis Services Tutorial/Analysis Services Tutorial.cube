@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12720" scrolltop="-3584" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="30798" y="20241" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12720" scrolltop="-2188" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="31459" y="20241" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -209,7 +209,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-3584</Value>
+      <Value>-2188</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -287,6 +287,11 @@
           <AttributeID>Status</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fa5620aa-82ad-4e69-b69a-602ee87a5f98">
+          <HierarchyID>Hierarchie</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="6e0fb34d-5661-400b-821a-f89e4d39401d">
       <ID>Ship Date</ID>
@@ -295,9 +300,6 @@
       <Attributes>
         <Attribute dwd:design-time-name="94892f74-d57a-4bdc-a7d6-55edede53304">
           <AttributeID>Date Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="5c334ed2-20ae-4226-aeb2-076f417856b7">
-          <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="949d4d27-873a-4446-b3eb-e1c7389b7cad">
           <AttributeID>English Month Name</AttributeID>
@@ -312,6 +314,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d6873de6-b548-4c64-bf10-2cc2a21e522b">
+          <HierarchyID>Hierarchie</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="eba3640f-9748-49df-93c6-b1d46989aa49">
       <ID>Due Date</ID>
@@ -320,9 +327,6 @@
       <Attributes>
         <Attribute dwd:design-time-name="4b9e8b39-b4af-4768-803d-5c3eb2e68945">
           <AttributeID>Date Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="e4c7fbf8-4d82-4703-b9e2-78c536444018">
-          <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="95e52af5-92fc-4ad4-866d-1cb78b5a2b23">
           <AttributeID>English Month Name</AttributeID>
@@ -337,6 +341,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8ce277df-ab44-46b2-ac82-39922d86ad9c">
+          <HierarchyID>Hierarchie</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="da611005-4151-47e3-9598-85fc7456c051">
       <ID>Customer</ID>
@@ -403,7 +412,15 @@
         <Attribute dwd:design-time-name="36eb1b2d-5cb6-43a9-b837-e2407579ebbc">
           <AttributeID>Postal Code</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="26edffb7-21d6-4ded-a7e9-5d45064b94c4">
+          <AttributeID>State Province Name</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="774bd8ed-cb1a-4f84-9c8b-4b2608d19209">
+          <HierarchyID>Hierarchie</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="fb27b362-a086-49ed-869d-9201504a03cf">
       <ID>Order Date</ID>
@@ -412,9 +429,6 @@
       <Attributes>
         <Attribute dwd:design-time-name="727dab25-a287-4eec-9a0c-026da43889e7">
           <AttributeID>Date Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="dcf4cbbf-796a-435a-83be-83afd2cc2a1b">
-          <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="2cbef6c3-c694-44b9-bc53-252239b29d67">
           <AttributeID>English Month Name</AttributeID>
@@ -429,6 +443,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="78fd8ab7-fdcc-49c1-ba4e-dff13f5452c5">
+          <HierarchyID>Hierarchie</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
@@ -461,6 +480,7 @@
               <ColumnID>UnitPrice</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="0461ef00-135c-4d3b-a4bd-5e86207c0ed6">
           <ID>Extended Amount</ID>
@@ -472,6 +492,7 @@
               <ColumnID>ExtendedAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="5ee12fc1-4211-4275-9a6a-80d9e8f66bab">
           <ID>Unit Price Discount Pct</ID>
@@ -483,6 +504,7 @@
               <ColumnID>UnitPriceDiscountPct</ColumnID>
             </Source>
           </Source>
+          <FormatString>Percent</FormatString>
         </Measure>
         <Measure dwd:design-time-name="4e8579e1-51aa-40d0-8e28-3c5ecade1756">
           <ID>Discount Amount</ID>
@@ -494,6 +516,7 @@
               <ColumnID>DiscountAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="b52753dd-7254-4e9f-b335-64a880ae6169">
           <ID>Product Standard Cost</ID>
@@ -505,6 +528,7 @@
               <ColumnID>ProductStandardCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="92d994b3-c209-4158-8c8d-e258b4c07f6c">
           <ID>Total Product Cost</ID>
@@ -516,6 +540,7 @@
               <ColumnID>TotalProductCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="c791e87c-50e3-45b9-b18e-d5ca709d559e">
           <ID>Sales Amount</ID>
@@ -527,10 +552,11 @@
               <ColumnID>SalesAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="df2f3d54-92f7-46c3-a203-eb7ca768ce83">
           <ID>Tax Amt</ID>
-          <Name>Tax Amt</Name>
+          <Name>Tax Amount</Name>
           <Source dwd:design-time-name="c48defdc-5164-44d6-912d-24462e16a54d">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="e24c38b2-8ac9-46e2-8f17-54b38d1f1d8e">
@@ -538,6 +564,7 @@
               <ColumnID>TaxAmt</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="192fe5d7-5b99-40ba-b870-8ec7e12f07e0">
           <ID>Freight</ID>
@@ -549,6 +576,7 @@
               <ColumnID>Freight</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="26bb8d90-dc7f-41f2-80cd-766a6687e44c">
           <ID>Internet Sales  Anzahl</ID>
